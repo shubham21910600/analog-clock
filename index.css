@@ -1,0 +1,44 @@
+#analog{
+  position: relative;
+  margin: auto;
+  height: 40vw;
+  width: 40vw;
+  background: url(clocl.png.png) no-repeat;
+  background-size: 100%;
+}
+#hour{
+  position: relative;
+  background: red;
+  border-radius: 10px;
+  transform-origin: bottom;
+  width: 0.81%;
+  height: 10%;
+  top: 39.5%;
+  left: 49.5%;
+  opacity: 0.8;
+
+  }
+#minutes{
+  position: relative;
+  background: blue;
+  border-radius: 10px;
+  transform-origin: bottom;
+  width: 0.7%;
+  height: 17%;
+  top: 22.5%;
+  left: 49.57%;
+  opacity: 0.8;
+
+}
+#second{
+  position: relative;
+  background: green;
+  border-radius: 10px;
+  transform-origin: bottom;
+  width: 0.51%;
+  height: 27%;
+  top: -4%;
+  left: 49.5%;
+  opacity: 0.8;
+
+}
